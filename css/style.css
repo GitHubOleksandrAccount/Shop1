@@ -1,0 +1,252 @@
+h1{
+	color: 	purple;
+	position: fixed;
+}
+
+/*body{
+	max-width: 1400px;
+	max-height: 100%;
+	position: fixed;
+}
+
+.card-warp  {
+     max-width: 205px;
+     border: 3px solid black;
+     padding: 0px;
+    background: linear-gradient(to bottom, #ff0000 0%, #ffffff 100%);
+    position: fixed;
+      }
+
+.card-warp img  {
+       display: block;
+       width: 100%;
+       position: fixed;
+
+       transition: all 1s ease-out;
+
+}
+
+
+.card-warp  img:hover{
+        transform: scale(1.2) ;
+        position: fixed;
+}
+
+.button-buy  {
+	 border: 1px solid rgb(178, 34, 34);
+	 background-color: rgb(178, 34, 34);
+	 padding: 12px;
+	 border-radius: 4px;
+	 text-align: center;
+	 font-weight: bold;
+	 margin-top: 20px;
+	 font-size: 18px;
+	 position: fixed;
+}
+.button-buy:hover {
+	  background-color: rgb(220, 20, 60);
+	  cursor:pointer;
+	  position: fixed;
+}
+
+   .item-content{
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 0;
+        text-align: center;
+        position: fixed;
+   }
+   .item-slider-container{
+   	    width: 35%;
+   	    padding: 30px;
+   	    border: 1px solid gray;
+   	    position: fixed;
+   }
+
+    .item-slider{
+width: 600px;
+position: fixed;
+    }
+   .item-description{
+   	    width: 30%;
+   	    padding: 30px;
+        background: rgb(238 , 238, 238);
+        position: fixed;
+   }
+
+  
+   .item-slider-contrainer .slick-prev:before,
+    .item-slider-contrainer .slick-prev:before {
+    	color:red  ;
+    	font-size: 36px;
+    	position: fixed;
+    }
+
+   .item-slider-contrainer .slick-prev{
+          left:  -65px;
+          position: fixed;
+   }
+    .item-slider-contrainer .slick-next{
+          right: -50px;
+          position: fixed;
+   }
+
+   .item-description span   {}
+
+
+   .itemm-description .bitton- {}
+
+
+   .item.new {}
+   .badge {
+   	position: fixed;
+   }
+   .icons-contenttt {
+   	height: 200px:
+   	border: 10px;
+   	transition: none:
+   	width: 200px;
+    position: fixed;
+    display: block;
+   }
+.footer-copyright {
+
+
+}
+.ytvideo {
+ border: 10;
+ position: absolute;
+ right: 5px;
+ top: 5px; 
+}
+
+.collapsible-body{
+	background-color: lightblue;
+}
+
+body{
+	display: flex;
+	background-color: white;
+}
+
+.cont {
+	display: flex;
+	flex-direction: column;
+}
+.contact-title {
+  text-align: center;
+  margin: 0 0 25px 0;
+}
+
+.contacts-phone{
+  display: flex;
+  margin-bottom: 20px;
+}
+.contacts-phone i, .contacts-phone span, .conacts-phone a{
+  margin-right: 10px;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgb(255,207 0);
+
+}
+.contacts-phone a{
+  color:white;
+  position: fixed;
+}
+.contact-col {
+display: flex;
+justify-content: center;
+margin: 20px 0;
+border: 2px solid grey;
+background-image: url(https://i.pinimg.com/474x/42/2b/b2/422bb20ca8140882840656315ad2e1de.jpg);
+}
+
+.contact-map {
+width: 50%;
+margin: 20px;
+border: 2px solid grey;
+display: flex;
+
+}
+.contact-info {
+  width: 30%;
+  margin: 20px;
+  padding: 25px;
+  border: 2px solid grey;  
+  border-radius: 5%;
+  background-image: url(https://i.pinimg.com/474x/42/2b/b2/422bb20ca8140882840656315ad2e1de.jpg);
+  color: white;
+  box-shadow: 0px 0px 34px -5px color:purple;
+
+
+}
+
+.contact-image {
+width: 20%;
+display: flex;
+align-items: center;
+margin: 20px;
+border: 2px solid grey;
+background-image: url(https://atlas-content-cdn.pixelsquid.com/stock-images/classic-lego-man-people-K6VyEr0-600.jpg);
+background-size: cover;
+background-position: center;
+}
+
+
+body{
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+  background-size: cover;
+}
+.mapimg {
+  width: 50px;
+  height: 50px;
+}
+.card {
+
+}
+/*  hello wolrd   */
+.material-icons {
+  position: fixed;
+}
+.row {
+  display: flex;
+  flex: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column img{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex:50%;
+    max-width: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    flex:50%;
+    max-width: 50px;
+  }
+  @media screen and (max-width: 400px) {
+  .column {
+    flex:50%;
+    max-width: 50px;
+  }
+  @media screen and (max-width: 200px) {
+  .column {
+    flex:50%;
+    max-width: 50px;
+  }
+  @media screen and (max-width: 100px) {
+  .column {
+    flex:50%;
+    max-width: 50px;
+  }
